@@ -5,7 +5,6 @@ import static org.testng.Assert.assertTrue;
 
 public class FirstTest extends BaseTest{
 
-
     @Test
     public void zipCode4DigitsCheck() {
         browser.get("https://sharelane.com/cgi-bin/register.py");

@@ -18,6 +18,7 @@ public class BaseTest {
         browser = new ChromeDriver(options);
         browser.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
+
     @AfterMethod
     public void close() {
         browser.quit();
